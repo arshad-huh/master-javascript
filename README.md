@@ -71,7 +71,7 @@
 
 ---
 
-## 5. Working with Data Structures
+## 5. Data Handling
 ### Arrays
 - Array methods (`push`, `pop`, `shift`, `unshift`, `splice`, `slice`, `concat`, etc.)
 - Iterating with `forEach`, `map`, `filter`, etc.
