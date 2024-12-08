@@ -9,11 +9,10 @@
 
 - Symbol Table: When you declare a variable using var, let, or const, the JavaScript engine creates an entry for that variable in a symbol table (also known as an identifier table).
 - Symbol Table's Role: This table stores information about the variable, such as:
--- Identifier: The name you give to the variable (e.g., name, age, pi).
--- Scope: The region of your code where the variable is accessible (global, local, block-scoped).
--- Data Type: The type of data the variable holds (e.g., number, string, boolean, object).
-
--- Memory Address: A pointer to the memory location where the variable's value is stored.
+  - Identifier: The name you give to the variable (e.g., name, age, pi).
+  - Scope: The region of your code where the variable is accessible (global, local, block-scoped).
+  - Data Type: The type of data the variable holds (e.g., number, string, boolean, object).
+  - Memory Address: A pointer to the memory location where the variable's value is stored.
 
 #### 2. Variable Values:
 
