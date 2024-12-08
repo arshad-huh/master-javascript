@@ -1,10 +1,10 @@
-## Variables
+# Variables
 - to store data
 - to make code reusable
 - to make code more flexible
 - = --> assignment operator
 
-**Where are they stored?**
+## Where are they stored?
 #### 1. Variable Names:
 
 - Symbol Table: When you declare a variable using var, let, or const, the JavaScript engine creates an entry for that variable in a symbol table (also known as an identifier table).
@@ -18,7 +18,7 @@
 
 - Memory Allocation: When you assign a value to a variable, the JavaScript engine allocates a specific region of memory to store that value. The size of this memory region depends on the data type of the value.
 
-**JavaScript provides three ways to declare variables:**
+## JavaScript provides three ways to declare variables:
 
 #### `var`
 - Function-scoped or globally-scoped
@@ -54,7 +54,7 @@ const PI = 3.14159;
 // PI = 3; // This would cause an error
 ```
 
-**Best Practices for Variables:**
+## Best Practices for Variables:
 - Use `const` by default
 - Use `let` only when you know the value will change
 - Avoid `var` in modern JavaScript
