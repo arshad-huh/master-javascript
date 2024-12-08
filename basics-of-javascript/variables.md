@@ -1,6 +1,25 @@
 ## Variables
+- to store data
+- to make code reusable
+- to make code more flexible
+- = --> assignment operator
 
-JavaScript provides three ways to declare variables:
+**Where are they stored?**
+#### 1. Variable Names:
+
+- Symbol Table: When you declare a variable using var, let, or const, the JavaScript engine creates an entry for that variable in a symbol table (also known as an identifier table).
+- Symbol Table's Role: This table stores information about the variable, such as:
+-- Identifier: The name you give to the variable (e.g., name, age, pi).
+-- Scope: The region of your code where the variable is accessible (global, local, block-scoped).
+-- Data Type: The type of data the variable holds (e.g., number, string, boolean, object).
+
+-- Memory Address: A pointer to the memory location where the variable's value is stored.
+
+#### 2. Variable Values:
+
+- Memory Allocation: When you assign a value to a variable, the JavaScript engine allocates a specific region of memory to store that value. The size of this memory region depends on the data type of the value.
+
+**JavaScript provides three ways to declare variables:**
 
 #### `var`
 - Function-scoped or globally-scoped
