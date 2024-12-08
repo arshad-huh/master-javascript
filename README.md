@@ -21,6 +21,10 @@
 - Template literals
 - String methods (e.g., `substring`, `toUpperCase`, `toLowerCase`, `split`, `trim`)
 
+### Comments
+- Single line `//`
+- Multi line `/* */`
+
 ---
 
 ## 2. Control Flow
