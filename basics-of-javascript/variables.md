@@ -61,3 +61,5 @@ const PI = 3.14159;
 - Use meaningful, descriptive variable names
 - Use camelCase for variable names
 - Declare variables close to where they are used
+- They are case sensitive i.e. A != a
+- **letters, _ and $ can be used as first characters except digits**
