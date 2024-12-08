@@ -1,6 +1,10 @@
-## Data Types
+# Data Types
 
-#### Primitive Types
+## Primitive Types
+- Simple: These are the most basic building blocks of data in JavaScript.
+- Immutable: Once assigned, their value cannot be changed directly.
+- Stored directly in memory: They occupy a specific memory location.
+  
 1. **Number**
    - Represents numeric values
    - Includes integers and floating-point numbers
@@ -48,7 +52,12 @@
    let bigNumber = 1234567890123456789012345678901234567890n;
    ```
 
-#### Non-Primitive Types
+## Non-Primitive Types
+- Complex: These are more intricate data structures.
+- Mutable: Their properties and values can be modified after creation.
+- Stored as references: They are stored as references to their memory location. (the allocated memory space stores a reference (or pointer) to the actual location in memory where the object's data is stored.)
+- Have properties and methods associated with them.
+
 1. **Object**
    - Collection of key-value pairs
    ```javascript
@@ -72,3 +81,33 @@
      return `Hello, ${name}!`;
    }
    ```
+4. **Date**
+- Represents a specific point in time
+   ```javascript
+      const today = new Date(); // Creates a Date object representing the current date and time
+
+      console.log(today); // Output: (e.g., 2024-12-08T18:30:00.000Z)
+
+      const birthday = new Date('1990-01-15'); 
+
+      console.log(birthday.getFullYear()); // Output: 1990 
+      console.log(birthday.getMonth() + 1); // Output: 1 (January is 0-indexed)
+   ```
+
+5. **RegExp**
+- Represents a regular expression for pattern matching
+   ```javascript
+      const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+      const email1 = "valid@example.com";
+      const email2 = "invalid";
+
+      console.log(emailRegex.test(email1)); // Output: true
+      console.log(emailRegex.test(email2)); // Output: false
+   ```
+
+## NOTE
+- Date and RegExp are considered non-primitive because they have their own internal structures and methods.
+  - They are not standard objects in the sense that you cannot directly add or modify their properties like regular objects.
+- While `const` prevents you from reassigning the entire object to a different object, it doesn't prevent you from modifying the object's properties.
+- For stricter immutability, you can use `Object.freeze()` to make an object truly immutable, preventing any modifications to its properties.
