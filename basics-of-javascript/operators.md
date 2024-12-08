@@ -1,8 +1,8 @@
 # Operators
-- a + b
-  - Here, a + b => Expression
-  - a and b => Operands
-  - + => Operator
+- `a + b`
+  - Here, `a + b` => Expression
+  - `a` and `b` => Operands
+  - `+` => Operator
 
 ## Arithmetic Operators
 - `+` Addition
