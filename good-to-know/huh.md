@@ -28,3 +28,4 @@ const confirmed = confirm('Are you sure?');
 - Leverage functional programming concepts
 - Minimize side effects
 - Use strict mode
+## why 0.1 + 0.2 != 0.3 in js but, 0.30000000004
