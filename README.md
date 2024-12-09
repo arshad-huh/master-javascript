@@ -52,6 +52,10 @@
 ### Truthy and Falsy Values
 - Understanding implicit type coercion in conditions
 
+### Console Object
+- Tools for debugging and inspecting your JavaScript code.
+- Key Methods like `console.warn`, `console.info`,etc.
+
 ---
 
 ## 4. Working with Functions
@@ -133,7 +137,9 @@
 ### Strict Mode
 - Enabling strict mode and its benefits
 
-### Object-Oriented Programming Concepts
+---
+
+## 9. Object-Oriented Programming Concepts
 - Classes and objects
 - Inheritance and prototypes
 - Encapsulation, polymorphism
@@ -141,7 +147,7 @@
 
 ---
 
-## 9. Good To Know
+## 10. Good To Know
 ### Null vs. Undefined
 ### Alert, Prompt, Confirm
 - Basic interactivity with users
