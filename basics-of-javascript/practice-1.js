@@ -70,6 +70,8 @@ console.log(5 === "5"); // Output: false (strict equality checks type and value)
 
 // Use the ternary operator to assign a value to a variable based on whether another variable is greater than 10.
 let a = 5;
+let result = a > 10 ? "Greater than 10" : "Smaller than 10";
+console.log(result);
 
 // Write a program to calculate the remainder when 25 is divided by 4 using the modulus operator.
 // Arithmetic and Logical Operators
