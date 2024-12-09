@@ -107,7 +107,8 @@
    ```
 
 ## NOTE
-- Date and RegExp are considered non-primitive because they have their own internal structures and methods.
+- `Date` and `RegExp` are considered non-primitive because they have their own internal structures and methods.
   - They are not standard objects in the sense that you cannot directly add or modify their properties like regular objects.
 - While `const` prevents you from reassigning the entire object to a different object, it doesn't prevent you from modifying the object's properties.
 - For stricter immutability, you can use `Object.freeze()` to make an object truly immutable, preventing any modifications to its properties.
+- `null` is a primitive data type in JavaScript, but the reason `typeof null` returns `"object"` is due to a historical bug in the language.
