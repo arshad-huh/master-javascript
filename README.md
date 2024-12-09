@@ -7,18 +7,19 @@
 
 ### Data Types
 - Primitive: `Number`, `String`, `Boolean`, `Null`, `Undefined`, `Symbol`, `BigInt`
-- Non-primitive: `Object`, `Array`, `Function`
+- Non-primitive: `Object`, `Array`, `Function`, `Date`, `RegEx`
 
 ### Operators
 - Arithmetic operators (e.g., `+`, `-`, `*`, `/`)
 - Comparison operators (e.g., `==`, `===`, `!=`, `<`, `>`)
 - Logical operators (e.g., `&&`, `||`, `!`)
 - Assignment operators (e.g., `=`, `+=`)
-- **BEDMAS** rule
 - Ternary operator (`? :`)
+- - **BEDMAS** rule
 
 ### Strings
 - Template literals
+- Escape Characters
 - String methods (e.g., `substring`, `toUpperCase`, `toLowerCase`, `split`, `trim`)
 
 ### Comments
