@@ -20,15 +20,20 @@ let quotient = 15 / 3;  // 5
 ```
 
 ## Unary Operators
-- Arithmetic
+### Arithmetic
   - `+` Unary Plus => Converts to number
   - `-` Unary Minus => Converts to number and then negates it
   - `++` Increment
     - Prefix: Increments the value before using it in the expression
     - Postfix: Uses the current value in the expression and then increments it
   - `--` Decrement => same as above
+  
+| Feature | Pre-increment ( `++x` ) | Post-increment ( `x++` ) |
+|---|---|---|
+| Order of Operations | Increment, then return | Return, then increment |
+| Value Returned | New (incremented) value | Original value |
 
-- Non - Arithmetic
+### Non - Arithmetic
   - `!` Logical Not => Inverts the boolean value of its operand.
   - `typeof` Returns a string indicating the data type of its operand.
   
