@@ -37,7 +37,7 @@ let fruitCount = fruits.length; // Returns 3
 - push(): Adds an element to the end of the array.
 - pop(): Removes the last element from the array and returns it.
 - slice(start,end): Creates a shallow copy of a portion of the array.
-- unshift(): Adds an element to the beginning of the array.
+- unshift(): Adds an element to the beginning of the array and returns length.
 - shift(): Removes the first element from the array and returns it.
 - splice(start, deleteCount, elements to add 1, 2,...): Adds/removes elements at a specific position and return the removed one.
 - concat(): Creates a new array by concatenating existing arrays.
