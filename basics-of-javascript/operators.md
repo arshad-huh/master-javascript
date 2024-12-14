@@ -52,6 +52,7 @@ let z = !true; // false
 5 == "5"   // true
 5 === "5"  // false
 ```
+**Note:** the comparison operators above can also be used to compare strings. In that case, a dictionary (lexicographical) order is applied.
 
 ## Logical Operators
 - `&&` AND
