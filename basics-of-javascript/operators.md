@@ -49,8 +49,11 @@ let b = a++;
 ```
 
 ### Non - Arithmetic
-  - `!` Logical Not => Inverts the boolean value of its operand.
-  - `typeof` Returns a string indicating the data type of its operand.
+  - `!` Logical NOT => Inverts the boolean value of its operand.
+  - `~` Bitwise NOT
+  - `typeof` => Returns a string indicating the data type of its operand.
+  - `delete` => The delete operator deletes a property from an object.
+  - `void` => The void operator evaluates an expression and discards its return value.
   
 ```javascript
 let x = "5";
@@ -107,8 +110,42 @@ let status = age >= 18 ? "Adult" : "Minor";
 
 ## Bitwise Operator
 
-## BEDMAS Rule (Order of Operations)
-1. Brackets
+
+## Short Circuiting
+- The process of evaluating expressions from left to right and stopping as soon as the result is determined.
+- Short-circuiting is a behavior in JavaScript's logical operators (&& and ||) where the second operand is not evaluated if the result of the expression can be determined solely from the first operand.
+
+**How it works:**
+- `&&` (AND operator): If the first operand is falsy, the second operand is not evaluated and the expression returns the value of the first operand.
+- `||` (OR operator): If the first operand is truthy, the second operand is not evaluated and the expression returns the value of the first operand.
+
+```javascript
+let lemons = 5; // Assuming you have 5 lemons
+
+// Using && operator
+lemons && document.write("foo gave me a bar"); 
+
+// Using if statement
+if (lemons) {
+  document.write("foo gave me a bar");
+}
+
+
+
+let hasInternet = true; 
+let hasBattery = false; 
+
+// Using || operator
+hasInternet || alert("No internet connection!"); 
+
+// Using if statement
+if (!hasInternet) {
+  alert("No internet connection!");
+}
+```
+
+## PEDMAS Rule (Order of Operations)
+1. Parenthesis
 2. Exponents
 3. Division and Multiplication (left to right)
 4. Addition and Subtraction (left to right)
