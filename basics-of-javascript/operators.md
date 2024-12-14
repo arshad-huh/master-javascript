@@ -33,6 +33,21 @@ let quotient = 15 / 3;  // 5
 | Order of Operations | Increment, then return | Return, then increment |
 | Value Returned | New (incremented) value | Original value |
 
+```javascript
+let x = 5;
+let y = ++x; 
+
+// x is now 6
+// y is 6 (the incremented value of x)
+
+
+let a = 5;
+let b = a++;
+
+// a is now 6 (incremented after the value was assigned to b)
+// b is 5 (the original value of a)
+```
+
 ### Non - Arithmetic
   - `!` Logical Not => Inverts the boolean value of its operand.
   - `typeof` Returns a string indicating the data type of its operand.
