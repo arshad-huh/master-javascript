@@ -16,17 +16,18 @@ if (condition1) {
 **Note:** We can also use Truthy and falsy values instead of conditions.
 
 ## Switch Statements
+- It is used when a single variable needs to be compared to multiple variants. The comparison is done by checking for strict equality (===)
+
 ```javascript
-switch (expression) {
-  case value1:
-    // Code to execute if expression matches value1
+switch (x) {
+  case option1:
+    // code that is executed when "x === option1" is true
     break;
-  case value2:
-    // Code to execute if expression matches value2
+  case option2:
+    // code that is executed when "x === option2" is true
     break;
-  // ... more cases
   default:
-    // Code to execute if none of the cases match
+    // code that is executed when x does not equal any of the options
 }
 
 
