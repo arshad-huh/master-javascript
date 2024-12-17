@@ -110,3 +110,8 @@ for (const key in person) {
 - `break`:
   - Exiting a loop when a specific condition is met.
   - Handling error conditions within a loop.
+ 
+## Return vs Break
+- The loop will naturally break if the `return` statement is executed.
+  - `return` directly provides the desired output and immediately exits the function.
+  - `break` only exits the loop, and you would still need a return statement after the loop to return the value.
