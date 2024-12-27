@@ -83,6 +83,14 @@ setTimeout(function() {
 // Executed immediately after it is defined.
 ```
 
+## Functions as First Class Citizens
+- In JS, functions are FIrst Class Citizens:
+  - Assigned to variables: Just like any other value (e.g., numbers, strings).
+  - Passed as arguments to other functions: This is the core of higher-order functions.
+  - Returned as the result of a function: Allowing for dynamic function creation.
+- This flexibility is a key feature of functional programming paradigms and enables powerful techniques like closures and higher-order functions.
+
+
 ## Common Use Cases
 - **Callbacks:** Functions passed as arguments to other functions (e.g., array.forEach(), array.map(), array.filter()).
 - **Event Listeners:** Functions executed when a specific event occurs (e.g., button click).
