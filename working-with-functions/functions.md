@@ -82,3 +82,8 @@ setTimeout(function() {
 })();
 // Executed immediately after it is defined.
 ```
+
+## Common Use Cases
+- **Callbacks:** Functions passed as arguments to other functions (e.g., array.forEach(), array.map(), array.filter()).
+- **Event Listeners:** Functions executed when a specific event occurs (e.g., button click).
+- **Creating Reusable Code:** Encapsulate logic for better organization and maintainability.
