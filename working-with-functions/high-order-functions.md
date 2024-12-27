@@ -4,6 +4,13 @@
   - Return functions as their result.
 
 ## Functions as Arguments
+- `array.forEach(callback(currentValue, index, array))` :
+  - callback: A function to be executed for each element.
+  - currentValue: The current element being processed in the array.
+  - index: The index of the current element.
+  - array: The array1 that forEach() is being2 called upon. 
+
+
 ```javascript
 // map: Transform array elements
 const numbers = [1, 2, 3, 4];
