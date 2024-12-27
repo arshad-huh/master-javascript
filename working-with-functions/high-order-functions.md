@@ -1,4 +1,9 @@
-## Higher-Order Functions
+# Higher-Order Functions
+- In JavaScript, high-order functions are functions that:
+  - Take other functions as arguments.
+  - Return functions as their result.
+
+## Functions as Arguments
 ```javascript
 // map: Transform array elements
 const numbers = [1, 2, 3, 4];
@@ -28,4 +33,35 @@ const allPositive = numbers.every(num => num > 0);
 // findIndex: Find index of first matching element
 const firstEvenIndex = numbers.findIndex(num => num % 2 === 0);
 // 1
+```
+
+## Functions as Return Values
+
+```javascript
+function createMultiplier(factor) {
+    return function(number) {
+        return number * factor;
+    };
+}
+
+const double = createMultiplier(2); 
+const triple = createMultiplier(3);
+
+console.log(double(5)); // Output: 10
+console.log(triple(5)); // Output: 15
+```
+
+## Key Concepts
+
+- **Callbacks:** Functions passed as arguments to other functions.
+- **Closures:** A function has access to the variables of the scope in which it was created, even after that scope has closed. This is crucial for many high-order function implementations.
+- **Recursion:** function calls itself repeatedly until a specific condition is met.
+``` javascript
+function factorial(n) {
+  if (n === 0) { 
+    return 1; // Base case
+  } else {
+    return n * factorial(n - 1); // Recursive step
+  }
+}
 ```
