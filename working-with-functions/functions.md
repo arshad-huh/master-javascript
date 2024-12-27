@@ -24,6 +24,20 @@ function sum(...numbers) {
 }
 sum(1, 2, 3, 4); // Output: 10
 ```
+- **Spread Operator (ES6):**
+  - Expand an iterable (like an array) into individual elements.
+  - Pass individual elements of an iterable as arguments to a function.
+  - Creating Shallow Copies of Arrays
+  - Combining Arrays
+```javascript
+function sum(x, y, z) {
+  return x + y + z;
+}
+
+const numbers = [1, 2, 3];
+const result = sum(...numbers); // Equivalent to sum(1, 2, 3)
+console.log(result); // Output: 6
+```
 
 ## Functions Declaration
 - Declared using the function keyword followed by the function name, parameters in parentheses, and the function body within curly braces.
